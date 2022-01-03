@@ -1,106 +1,138 @@
 <!DOCTYPE html>
-<html lang="em">
-
-<Head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <lin rel="icon" type="image/png" herf="img/techis-logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Icon" type="Image/png" href="/img/techis-logo.png">
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css">
-
-    <title>Protfolio</title>
-</Head>
-
-<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <div class="container">
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ms-auto mb-2">
-              <li class="nav-item">
-                <a class="nav-link font-black" href="about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-black" href="#projects">Projects</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div id="about">
-          <h2><span class="font-primary">A</span>bout</h2>
-          <img src="img/Brandon.JPG">
-          <div class="name">Brandon Cottrell</div>
-          <div class="vocation">Web Application Developer</div>
-          <div class="skills">HTML / CSS / JavaScript / React.js / Redux / Python / Django / Express.js / AWS(Basics) / Docker (Basics)</div>
-          <p>
-              An SPA that displays subreddit data from Reddit for a specifed time period. As the front-end developer, I worked 
-          </p>
-          <div class="email">bmcottr@gmail.com</div>
-          <div class="icons">
-            <a href="#"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-linkedin ms-3"></i></a>
-          </div>
-        </div>
-
-        <div id="project">
-          <h2><spam class="font-primary">P</spam>roject</h2> 
-
-          <div class="card md-3">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/project-twitter.png" alt="Twitter Project">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Twitter Clone</h5>
-                  <p class="card-text">This is a twitter based project made using Django</p>
-                  <p class="card-text"><small class="text-muted">
-                      Test Login Account <br>
-                      Email : bmcottr@gmail.com <br>
-                      Password: 1234
-                  </small></p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Github Link</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card md-3">
-            <div class="row">
-                <div class="col-md-4">
-                  <img src="img/project-netflix.png" alt="Netflix Project">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Netflix Clone</h5>
-                    <p class="card-text">This is a Netflix based project using HTML / CSS / JS</p>
-                    <p class="card-text"><small class="text-muted">
-                        Test Login Account <br>
-                        Email : bmcottr@gmail.com <br>
-                        Password: 1234
-                    </small></p>
-                    <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
-                    <a href="#" target="_blank" class="btn btn-secondary">Github Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="container">
+        <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link font-black" href="#project">Project</a>
+            </li>  
+          </ul>
         </div>
       </div>
+    </nav>
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout</a> </h2>
+      <img src="img/Brandon.JPG"/>
+      <div class="name">Brandon Cottrell</div>
+      <div class="vocation">Web Application Developer</div>
+      <div class="skills">HTML / CSS / JavaScript / React.JS / Redux / Python / Django / Express.JS / AWS Basics / Docker Basics</div>
+      <p>An SPA that displays subreddit data from Reddit for a specified time period. As the front-end developer, I worked</p>
+      <div class="email">bmcottr@gmail.com</div>
+      <div class="icons"></div>
+          <a href="https://github.com/Brandon-Cottrell"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/brandon-cottrell-8ba936b2/"><i class="bi bi-linkedin"></i></a>
     </div>
+    <div id="project">
+      <h2><span class="font-primary">P</span>roject</h2>
 
-          
-        
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</body>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source src="video/project-symantic.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Symantic</h5>
+              <p class="card-text"><strong>Project Description : </strong>Symantic, This is the most informative movie review website, you can compare different reviews on current, upcoming, recent, or old movies and even get a sneak-peek at the trailers. You can filter the movies by genre. This extension helps you save time by loading all the current and running movies in a single click.  </p>
+              <p class="card-text"><strong>Skills Used : </strong>Frontend built in React & Redux, Backend build in Django API</p>
+                <p><small class="text-muted">
+                 <br>
+                 <br>
+                 <br>
+              </small></p>
+              <a href="https://frontend-moviewreview.herokuapp.com/" target="_blank" class="btn btn-secondary">website</a>
+              <a href="https://github.com/Moviereviewproject/Moviereview.git" target="_blank" class="btn btn-secondary">GitHub</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+
+
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source src="video/project-pizza.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Menu</h5>
+              <p class="card-text"><strong>Project Description : </strong>Pizza Menu, It is used in Restaurents & cafe. Customers can see the page and order the items below and show your order to our waiter. </p>
+              <p class="card-text"><strong>Skills Used : </strong>Frontend built in React & Redux, Backend build in Django API</p>
+                <p><small class="text-muted">
+                Test Login account<br>
+                Email : test@gmail.com <br>
+                password: 123456 <br>
+              </small></p>
+              <a href="https://frontend-pizza-menu.herokuapp.com/" target="_blank" class="btn btn-secondary">website</a>
+              <a href="https://github.com/Brandon-Cottrell/Dino-s-pizzeria.git" target="_blank" class="btn btn-secondary">GitHub</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source src="video/project_twitter.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Twittter Clone</h5>
+              <p class="card-text"><strong>Project Description : </strong>Users can post tweets and see everyone's in our app.
+                To keep the project simple, we do not include a sign up/login in functionality.
+                But you can learn CRUD(Create/Read/Update/Delete) through this project.</p>
+              <p class="card-text"><strong>Skills Used : </strong>Html/CSS/Javascript / JQuery/ Django/ Cloudinary.</p>
+                <p><small class="text-muted">
+                <br>
+                 <br>
+                 <br>
+              </small></p>
+              <a href="https://twitterappy.herokuapp.com/" target="_blank" class="btn btn-secondary">website</a>
+              <a href="https://github.com/Brandon-Cottrell/twitterproject.git" target="_blank" class="btn btn-secondary">GitHub</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"
+        ></script>
+  </body>
 </html>
-
